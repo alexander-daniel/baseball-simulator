@@ -1,0 +1,39 @@
+{
+  "name": "my-agora-app",
+  "version": "0.0.2",
+  "description": "simple websocket communication module",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test",
+    "build": "./bin/build-js",
+    "watch": "./bin/watch-js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "agora": "0.0.2",
+    "ampersand-app": "^1.0.4",
+    "ampersand-collection": "^1.4.5",
+    "ampersand-model": "^6.0.1",
+    "assign-deep": "^0.3.1",
+    "babelify": "^6.3.0",
+    "brfs": "^1.4.1",
+    "ecstatic": "^0.8.0",
+    "flux": "^2.1.1",
+    "hat": "0.0.3",
+    "lash": "^2.0.1",
+    "node-eden": "0.0.3",
+    "object-assign": "^4.0.1",
+    "react": "^0.13.3",
+    "rethinkdb": "^2.1.1"
+  },
+  "devDependencies": {
+    "tap": "^1.4.0",
+    "tape": "^4.2.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}

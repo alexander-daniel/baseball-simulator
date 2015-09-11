@@ -1,0 +1,19 @@
+.\+border {
+    border: 1px solid black;
+}
+
+.\+soft {
+    padding: 10px!important;
+}
+
+.\+push {
+    margin: 10px!important;
+}
+
+.\+hard {
+    padding: 0!important;
+}
+
+.\+flush {
+    margin: 0!important;
+}

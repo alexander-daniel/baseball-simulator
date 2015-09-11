@@ -1,0 +1,5 @@
+node_modules/*
+*.log
+*.DS_Store
+static/js/bundle.js
+rethinkdb_data/*
